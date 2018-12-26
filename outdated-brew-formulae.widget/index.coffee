@@ -27,7 +27,7 @@ style: """
   .list-item
     font-size: 12px
     font-weight: 200
-    color: rgba(#aaa, .9)
+    color: rgba(#fff, .5)
     text-shadow: 0 1px 0px rgba(#000, .7)
 
   .widget-title
@@ -55,7 +55,7 @@ update: (output, domElement) ->
   addFormula = (formula) ->
     item = "<div class=\"list-item\">#{formula}</div>"
     list.append item
- 
+
   if formulae.length == 0
     addFormula "No outdated formulae!"
 
